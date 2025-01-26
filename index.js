@@ -66,10 +66,10 @@ if (path.extname(plugin).toLowerCase() == ".js") {
 require("./plugins/" + plugin);
 }
 });
-console.log('PLugins insTaLLed successFuL ✅')
+console.log('PLugins insTaLLed successFuLLy ✅')
 console.log('🍁𝐇𝐄𝐑𝐎𝐁𝐑𝐈𝐍𝐄-𝐌𝐃🍁 connecTed To whaTsapp ✅')
 
-let up = `Wa-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `🍁𝐇𝐄𝐑𝐎𝐁𝐑𝐈𝐍𝐄-𝐌𝐃🍁 connected successful ✅\n\nPREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
 
