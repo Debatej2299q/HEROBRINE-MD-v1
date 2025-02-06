@@ -1,0 +1,31 @@
+{
+  "name": "ꪶ ཻུ۪۪ꦽꦼ̷⸙🍁𝐇𝐄𝐑𝐎𝐁𝐑𝐈𝐍𝐄-𝐌𝐃🍁ꪶ ཻུ۪۪ꦽꦼ̷⸙",
+  "description": "Javascript WhatsApp bot made by DebaTeJ (TP-STudio)",
+  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "imgs links",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "ꪶ ཻུ۪۪ꦽꦼ̷⸙🍁𝐇𝐄𝐑𝐎𝐁𝐑𝐈𝐍𝐄-𝐌𝐃🍁ꪶ ཻུ۪۪ꦽꦼ̷⸙ is sTiLL aLive🌝✌🏻🕊️\n> TP-STUDIO",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
