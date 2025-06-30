@@ -1,10 +1,11 @@
 {
-  "name": "🍁𝐇𝐄𝐑𝐎𝐁𝐑𝐈𝐍𝐄-𝐌𝐃🍁",
+  "name": "HEROBRINE-MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot creaTed using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name HEROBRINE-MD",
+    "start": "node index.js",
+    "start:pm2": "pm2 start index.js --deep-monitoring --attach --name HEROBRINE-MD",
     "stop": "pm2 stop HEROBRINE-MD",
     "restart": "pm2 restart HEROBRINE-MD"
   },
