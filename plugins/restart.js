@@ -10,12 +10,11 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-const {exec} = require("child_process")
-reply("resTarTing 🍁𝐇𝐄𝐑𝐎𝐁𝐑𝐈𝐍𝐄-𝐌𝐃🍁...")
-await sleep(1500)
-exec("pm2 restart all")
+    reply("resTarTing 🍁𝐇𝐄𝐑𝐎𝐁𝐑𝐈𝐍𝐄-𝐌𝐃🍁...")
+    await sleep(1500)
+    process.exit(0) // Let Render auto-restart the service
 }catch(e){
-console.log(e)
-reply(`${e}`)
+    console.log(e)
+    reply(`${e}`)
 }
 })
